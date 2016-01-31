@@ -5,7 +5,7 @@ describe TommyBot do
     expect(TommyBot::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'api.test' do
+    expect(TommyBot.new).to be_ok
   end
 end
