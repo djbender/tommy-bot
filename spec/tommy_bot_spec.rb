@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Tommy::Bot do
+describe TommyBot do
   it 'has a version number' do
-    expect(Tommy::Bot::VERSION).not_to be nil
+    expect(TommyBot::VERSION).not_to be nil
   end
 
   it 'does something useful' do

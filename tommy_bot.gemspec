@@ -1,16 +1,16 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'tommy/bot/version'
+require 'tommy_bot/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "tommy-bot"
-  spec.version       = Tommy::Bot::VERSION
+  spec.name          = "tommy_bot"
+  spec.version       = TommyBot::VERSION
   spec.authors       = ["Derek Bender"]
   spec.email         = ["nofeardjb@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "https://www.github.com/djbender/tommy-bot"
+  spec.homepage      = "https://www.github.com/djbender/tommy_bot"
   spec.license       = "MIT"
   spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
